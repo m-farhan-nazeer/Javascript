@@ -8,18 +8,41 @@ console.log(a + b )
 console.log(a ** b)
 
 
-//                                              loose equality
+//                                                       loose equality
 
 console.log('5' == 5 )
 
-//                                                         strict equality
+//                                                        strict equality
 console.log('5' === 5 )
 
 
-                // bitwise_operators
+                //                                        bitwise_operators
 
 console.log( 5 & 2)
 console.log(5|2)
 console.log(~5)
 console.log(5>>1)
 console.log(5<<1)
+//                                                       conditions
+
+let age = 8;
+if (age >18){
+    console.log('can vote')
+}
+else{
+    console.log('cannot vote')
+}
+let num = 3;
+if (num ==1){
+    console.log('a')
+}
+else if(num == 0 ){
+    console.log('b')
+}
+else if (num == 2){
+    console.log('c')
+}
+else{
+    console.log('f')
+}
+                                  
