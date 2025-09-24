@@ -84,6 +84,12 @@ num === 7 ? console.log('lucky') : console.log("not lucky");
 let statuss = 'ofline';
 let color = statuss ==='ofline'? 'red' : 'green';
 console.log(color)
+function addNumbers(a, b) {
+  return a + b;
+}
+
+// Example usage:
+console.log(addNumbers(5, 7)); // Output: 12
 
 
 
