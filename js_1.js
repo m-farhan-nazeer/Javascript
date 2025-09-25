@@ -90,6 +90,14 @@ function addNumbers(a, b) {
 
 // Example usage:
 console.log(addNumbers(5, 7)); // Output: 12
+// Returns the square of any number
+function square(num) {
+  return num * num;
+}
+
+// Example usage:
+console.log(square(6)); // Output: 36
+
 
 
 
