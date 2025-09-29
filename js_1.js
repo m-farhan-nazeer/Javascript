@@ -167,4 +167,6 @@ dishesToDO.shift()
 
 console.log(animals.concat(dishesToDO))
 
+let an = animals.slice(-3)
+
 
