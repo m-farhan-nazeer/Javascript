@@ -163,5 +163,8 @@ let dishesToDO =[]
 dishesToDO.unshift('platter')
 dishesToDO.unshift('bowl')
 dishesToDO.unshift('glass')
+dishesToDO.shift()
+
+console.log(animals.concat(dishesToDO))
 
 
