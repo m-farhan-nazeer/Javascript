@@ -155,18 +155,27 @@
 // ----------------------------array------------------------------
 
 
-let animals = ['cows','goats,','chickens']
-animals.push('hens')
-animals.pop()
+// let animals = ['cows','goats,','chickens']
+// animals.push('hens')
+// animals.pop()
 
-let dishesToDO =[]
-dishesToDO.unshift('platter')
-dishesToDO.unshift('bowl')
-dishesToDO.unshift('glass')
-dishesToDO.shift()
+// let dishesToDO =[]
+// dishesToDO.unshift('platter')
+// dishesToDO.unshift('bowl')
+// dishesToDO.unshift('glass')
+// dishesToDO.shift()
 
-console.log(animals.concat(dishesToDO))
+// console.log(animals.concat(dishesToDO))
 
-let an = animals.slice(-3)
+// let an = animals.slice(-3)
+
+// animals.splice(1,0,"eagle")
+
+for (let num = 1 ;num<=20;num++){
+  console.log(`${num} x ${num} = ${num*num}`)
+}
+
+
+
 
 
