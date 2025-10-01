@@ -179,9 +179,17 @@
 // for (let num = 1; num <= 20; num++) {
 //   console.log(`${num} x ${num} = ${num * num}`);
 // }
-for (let num = 1; num <= 20; num++) {
-  console.log(`${num} x ${num} = ${num * num}`);
+// for (let num = 1; num <= 20; num++) {
+//   console.log(`${num} x ${num} = ${num * num}`);
+// }
+
+const target = Math.floor(Math.random()*10);
+let guess = Math.floor(Math.random()*10);
+while(target!== guess){
+  console.log(guess);
+  guess = Math.floor(Math.random()*10);
 }
+
 
 
 
