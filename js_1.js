@@ -198,6 +198,13 @@
 // }
 // console.log(`target:${target} guess: ${guess}`)
 
+// const target = Math.floor(Math.random()*10);
+// let guess = Math.floor(Math.random()*10);
+// while(target!== guess){
+//   console.log(guess);
+//   guess = Math.floor(Math.random()*10);
+// }
+// console.log(`target:${target} guess: ${guess}`)
 const target = Math.floor(Math.random()*10);
 let guess = Math.floor(Math.random()*10);
 while(target!== guess){
